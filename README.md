@@ -7,6 +7,7 @@ specified as linked service (see <https://myactivity.google.com/linked-services>
 For that reason, generate a birthday calendar as follows:
 
 1. Export contacts in Google CSV format from <https://contacts.google.com>
+1. Place exported `contacts.csv` in this repo directory
 1. Run script in this repo: `python3 create_birthday_calendar.py`
 1. The calendar file `birthday_calendar.ics` is created
 1. Create a new empty calendar at <https://calendar.google.com>
