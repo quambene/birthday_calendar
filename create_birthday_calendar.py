@@ -21,7 +21,7 @@ def create_ics_event(name, date: str, event):
     end = (dt + timedelta(days=1)).strftime("%Y%m%d")
 
     ics_event = f"""BEGIN:VEVENT
-SUMMARY:{event} - {name}
+SUMMARY:{name}
 DTSTART;VALUE=DATE:{start}
 DTEND;VALUE=DATE:{end}
 RRULE:FREQ=YEARLY
