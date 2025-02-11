@@ -1,6 +1,9 @@
 # Birthday calendar
 
-Create birthday calendar:
+For some regions like Germany, Google doesn't include birthdays from Google
+Contacts in Google Calendar.
+
+For that reason, generate a birthday calendar as follows:
 
 1. Export google contacts in Google CSV format
 1. Run script: `python3 create_birthday_calendar.py`
