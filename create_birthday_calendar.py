@@ -44,4 +44,4 @@ def csv_to_ics(csv_filename, ics_filename):
         ics_file.write("END:VCALENDAR")
 
 
-csv_to_ics('contacts.csv', 'birthdays_calendar.ics')
+csv_to_ics('contacts.csv', 'birthday_calendar.ics')
